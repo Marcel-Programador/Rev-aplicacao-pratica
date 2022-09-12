@@ -10,7 +10,7 @@ users = users.data;
 // Update - Atualizar
 // Delete - Deletar
 
-const userControler = {
+const userController = {
     // Read
     // Ler/Listar todos os usuários e pode filtrar eles.
     index: (req, res) => {
@@ -114,6 +114,6 @@ const userControler = {
         res.send("404 - Not Found");
     },
 };
-module.exports = userControler;
+module.exports = userController;
 
 // comentando para realizar o commit
